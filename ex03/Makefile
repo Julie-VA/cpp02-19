@@ -6,12 +6,14 @@
 #    By: rvan-aud <rvan-aud@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/09 11:58:29 by rvan-aud          #+#    #+#              #
-#    Updated: 2021/12/13 18:04:39 by rvan-aud         ###   ########.fr        #
+#    Updated: 2021/12/14 12:59:06 by rvan-aud         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 SRCS		=	main.cpp	\
+				bsp.cpp		\
 				Fixed.cpp	\
+				Point.cpp	\
 
 NAME		= ex03
 

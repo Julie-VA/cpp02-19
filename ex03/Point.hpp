@@ -17,13 +17,19 @@ class	Point
 	public:
 
 		Point(void);
-		Point(Fixed const &src);
+		Point(Point const &src);
+		Point(float const a, float const b);
 		~Point(void);
 
-		// Point	&operator=(Point const &rhs);
+		Point	&operator=(Point const &rhs);
+
+		Fixed const	getX(void) const;
+		Fixed const	getY(void) const;
 
 	private:
 
 		Fixed const	_x;
 		Fixed const	_y;
-}
+};
+
+bool	bsp( Point const a, Point const b, Point const c, Point const point);

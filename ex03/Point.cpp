@@ -12,22 +12,35 @@
 
 #include "Point.hpp"
 
-Point::Point(void) : _x(Fixed(0)), _y(Fixed(0));
+Point::Point(void) : _x(Fixed(0)), _y(Fixed(0))
 {
 }
 
-Point::Point(Point const &src)
+Point::Point(Point const &src) : _x(src._x), _y(src._y)
 {
-	*this = src;
 }
 
-// Point::Point(Fixed )
+Point::Point(float const a, float const b) : _x(Fixed(a)), _y(Fixed(b))
+{
+}
 
 Point::~Point(void)
 {
 }
 
-// Point	&operator=(Point const &rhs)
-// {
+Point	&Point::operator=(Point const &rhs)
+{
+	(void)rhs;
+	std::cout << "Impossible to assign a value to a constant variable" << std::endl;
+	return (*this);
+}
 
-// }
+Fixed const	Point::getX(void) const
+{
+	return (this->_x);
+}
+
+Fixed const	Point::getY(void) const
+{
+	return (this->_y);
+}
