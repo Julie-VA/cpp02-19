@@ -6,7 +6,7 @@
 /*   By: rvan-aud <rvan-aud@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/09 11:59:03 by rvan-aud          #+#    #+#             */
-/*   Updated: 2021/12/14 13:26:23 by rvan-aud         ###   ########.fr       */
+/*   Updated: 2021/12/17 12:46:22 by rvan-aud         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ int main(void)
 	const Point a(0.f, 1.f);
 	const Point b(2.f, 3.f);
 	const Point c(4.f, 1.f);
+
 	const Point	p(2.f, 1.f);
 	const Point p1(2.f, 2.f);
 	const Point	p2(2.f, 0.99);

@@ -6,7 +6,7 @@
 /*   By: rvan-aud <rvan-aud@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/09 11:33:49 by rvan-aud          #+#    #+#             */
-/*   Updated: 2021/12/09 11:57:27 by rvan-aud         ###   ########.fr       */
+/*   Updated: 2021/12/17 12:36:43 by rvan-aud         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,5 +28,5 @@ class	Fixed
 	private:
 
 		int					_value;
-		static const int	_bits;
+		static const int	_bits = 8;
 };
